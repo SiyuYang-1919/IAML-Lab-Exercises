@@ -1,0 +1,12 @@
+- ### Problem description:
+  - Got VSC notification: 'You don't have permission to push changes to this branch...create a folk...' when pushing changes to the repo that I created in Github.
+  - The way that I cloned the repo to VSC was copying the HTTP link of this repo and cloned it (perfectly normal). 
+  - This is strange as the repo is public and don't need permission to make changes.
+- ### One common reason that raised this issue:
+  - Have two or more Github accounts, the one where the repo is created is not the same as the one signed in the VSC.
+- ### How to change the Github account to:
+  - Reference: [Stackoverflow](https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code)
+  - There are a various methods to change the account, but not all of them are useful or efficient, at least not for me :( 
+  - I have tried several ways to change the account, the following steps finally solve my problem:
+    - Step1: Open the VSC and click this buttom at the left bottom corne
+      ![alt text](/Users/siyuyang/Desktop/Introductory Applied Machine Learning/iaml-labs-modified/change-account-md1.jpg)
