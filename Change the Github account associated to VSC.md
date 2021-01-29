@@ -6,11 +6,11 @@
   - Have two or more Github accounts, the one where the repo is created is not the same as the one signed in the VSC.
 - ### How to change the Github account to:
   - #### Reference: 
-  [Stackoverflow1](https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code)
-  [Stackoverflow2](https://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push)
+    - [Stackoverflow1](https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code)
+    - [Stackoverflow2](https://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push)
   - There are a various methods to change the account mentioned in these links, but not all of them are useful or efficient, at least not for me :( I have tried several ways to change the account, the following steps finally solved my problem:
     - ##### Step1: 
-      - Open the VSC and click this buttom at the left bottom corne
+      - Open the VSC and click the first button at the left bottom corner, above the Setting button.
       ![alt text](md1-images/change-account-md1.jpg)
       - You will find that it shows the account signed in: username (GitHub), then click sign out
       ![alt text](md1-images/md-image2.jpg)
