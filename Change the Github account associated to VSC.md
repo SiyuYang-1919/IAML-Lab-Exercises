@@ -2,7 +2,7 @@
   - Got VSC notification: 'You don't have permission to push changes to this branch...create a folk...' when pushing changes to the repo that I created in Github.
   - The way that I cloned the repo to VSC was copying the HTTP link of this repo and cloned it (perfectly normal). 
   - This is strange as the repo is public and don't need permission to make changes.
-- ### One common reason that raised this issue:
+- ### What raised this issue:
   - Have two or more Github accounts, the one where the repo is created is not the same as the one signed in the VSC.
 - ### How to change the Github account to:
   - #### Reference: 
@@ -26,7 +26,7 @@
         ```$ git config --global user.name '<github-account-name>'```
         ```$ git config --global user.email '<github-account-email>'```
     - ##### Step5: 
-      - Try to push or pull some changes to see if the problem had been solved or not. If still not, then do the following things:
+      - Try to push or pull some changes to see if the problem have been solved or not. If still not, then do the following things:
       - ```For windows```: 
         - Go to: Control Panel -> User Accounts -> Manage your credentials -> Windows Credentials
         - Under Generic Credentials there are some credentials related to Github, Click on them and click "Remove". (from Stackoverflow, author: Luan Si Ho, [Stackoverflow](https://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push))
