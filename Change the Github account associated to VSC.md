@@ -8,7 +8,7 @@
   - #### Reference: 
     - [Stackoverflow1](https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code)
     - [Stackoverflow2](https://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push)
-  - There are a various methods to change the account mentioned in these links, but not all of them are useful or efficient, at least not for me :( I have tried several ways to change the account, the following steps finally solved my problem:
+  - There are various methods to change the account mentioned in these links, but not all of them are useful or efficient, at least not for me :( I have tried several ways to change the account, the following steps finally solved my problem:
     - ##### Step1: 
       - Open the VSC and click the first button at the left bottom corner, above the Setting button.
       ![alt text](md1-images/change-account-md1.jpg)
