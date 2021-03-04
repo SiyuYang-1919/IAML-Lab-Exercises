@@ -18,7 +18,7 @@
     - 1) $p = 2$: Euclidean
     - 2) $p = 1$: Manhattan
     <p align="center">
-    <img src="images/knn2.jpg" width="300" height="300" alt="knn2" align=center>
+    <img src="/Users/siyuyang/github/IAML-Lab-Exercises/images/knn2.jpg" width="300" height="300" alt="knn2" align=center>
     - 3) $p -> \infty$: $\underset{d}{\text{max}}\left|x_d-x'_d\right|$
     - 4) $p -> 0$: number of non-zero differences
     $$ D(x,x') = \sum_d 1_{x_d\not=x'_d} $$
@@ -28,7 +28,7 @@
   - partitions space into regions
   - boundary: points at the same distance from two different training examples
 <p align="center">
-<img src="images/KNN1.jpg" width="300" height="300" alt="knn" align=center>
+<img src="/Users/siyuyang/github/IAML-Lab-Exercises/images/KNN1.jpg" width="300" height="300" alt="knn" align=center>
 
 ## 3. Examples/Applications
 
